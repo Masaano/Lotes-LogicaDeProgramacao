@@ -1,3 +1,17 @@
+/**
+* Função: Criar uma matriz [8][8] inteiro e o programa irá carregar segundo:
+* [1] [1] [1] [1] [1] [1] [1] [1]
+* [1] [2] [2] [2] [2] [2] [2] [1]
+* [1] [2] [3] [3] [3] [3] [2] [1]
+* [1] [2] [3] [4] [4] [3] [2] [1]
+* [1] [2] [3] [4] [4] [3] [2] [1]
+* [1] [2] [3] [3] [3] [3] [2] [1]
+* [1] [2] [2] [2] [2] [2] [2] [1]
+* [1] [1] [1] [1] [1] [1] [1] [1]
+* Autor: Clederson Cruz
+* Data: 17/09/2016
+*/
+
 public class PreencheMatriz {
 	public static void main(String[] args) {
 		int matriz[][] = new int[8][8];
