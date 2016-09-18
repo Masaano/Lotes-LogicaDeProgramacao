@@ -1,0 +1,86 @@
+hI = hF | mI < mF
+hI mI : hF mF
+13 00   13 10
+
+Conta
+dH = hF - hI
+dM = mF - mI
+
+-------------
+
+hI = hF | mI = mF
+hI mI : hF mF
+13 00 : 13 00
+
+Conta
+dH = hF - hI
+dM = mF - mI
+
+-------------
+
+hI = hF | mI > mF
+hI mI : hF mF
+13 10 : 13 00
+
+Conta
+dH = 23 + (hF - hI)
+dM = 60 + (mF - mI)
+
+---------------
+
+hI < hF | mI < mF
+hI mI : hF mF
+12 00 : 13 10
+
+Conta
+dH = hF - hI
+dM = mF - mI
+
+--------------
+
+hI < hF | mI > mF
+hI mI : hF mF
+12 10 : 13 00
+
+Conta
+dH = hF - hI - 1
+dM = 60 + (mF - mI)
+
+---------------
+
+hI < hF | mI = mF
+hI mI : hF mF
+12 00 : 13 00
+
+Conta
+dH = hF - hI
+dM = mF - mI
+
+--------------
+
+hI > hF | mI > mF
+hI mI : hF mF
+13 10 : 12 00
+
+Conta
+dH = 23 + (hF - hI)
+dM = 60 + (mF - mI)
+
+--------------
+
+hI > hF | mI = mF
+hI mI : hF mF
+13 00 : 12 00
+
+Conta
+dH = 24 + (hF - hI)
+dM = mF - mI
+
+-------------
+
+hI > hF | mI < mF
+hI mI : hF mF
+13 00 : 12 10
+
+dH = 24 + (hF - hI)
+dM = mF - mI
